@@ -54,27 +54,3 @@ const total = addNums(2, 4);
 console.log(total) // Expected value: 6
 
 For more information on functions and how they are used in JS, check out the [MDN Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions).
-
-# NFL Memory Game
-
-## ***Rules and how to play the game***:
-+ This NFL-themed memory game challenges players to match current NFL players hidden behind a grid of squares. Players will select squares, trying to find matching pairs within 8 attempts. Each round consists of 12 squares, and you'll have 16 seconds to make your selections. With each new round, the time to complete your matches decreases, raising the stakes. To win, you must successfully match three pairs in a row.
-  
-### ***Cool part of the game***:
-+ Each NFL player will have a voice over if the matches are correct!
-
-#### ***Some Syntax***:
-```javascript
-function shuffle(array) {
-        for (let i = array.length - 1; i > 0; i--) {
-            const j = Math.floor(Math.random() * (i + 1));
-            [array[i], array[j]] = [array[j], array[i]];
-        }
-        return array;
-    }
-
-```
->#### **Tip**: 
-+ Look on the NFL site to reference current and relevant players [NFL](https://www.nfl.com/)
-
-***Go Raiders!***
